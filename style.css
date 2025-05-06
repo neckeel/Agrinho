@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; /* Uma fonte moderna e legível */
+    background-color: #f4f1de; /* Um bege claro como cor de fundo */
+    color: #3d405b; /* Um tom de marrom acinzentado escuro para o texto principal */
+    line-height: 1.7; /* Melhora a legibilidade do texto */
+}
+
+/* Cores personalizadas em tons de marrom e verde */
+.bg-marrom-escuro {
+    background-color: #3d405b !important; /* Marrom escuro */
+}
+
+.bg-marrom-medio {
+    background-color: #817166 !important; /* Marrom médio */
+}
+
+.bg-verde-medio {
+    background-color: #81a887 !important; /* Verde médio */
+}
+
+.bg-verde-claro {
+    background-color: #d4e3cf !important; /* Verde claro */
+}
+
+.text-marrom-escuro {
+    color: #3d405b !important;
+}
+
+.text-verde-escuro {
+    color: #386641 !important; /* Verde escuro */
+}
+
+.text-verde-medio {
+    color: #6a994e !important; /* Verde médio */
+}
+
+.bg-marrom-transparente {
+    background-color: rgba(61, 64, 91, 0.8) !important; /* Marrom escuro transparente */
+}
+
+.bg-verde-transparente {
+    background-color: rgba(129, 168, 135, 0.8) !important; /* Verde médio transparente */
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 80px 20px; /* Mais espaçamento vertical */
+    margin-bottom: 40px; /* Mais espaço abaixo do cabeçalho */
+}
+
+.cabecalho h1 {
+    font-size: 4rem; /* Título ainda maior */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra mais pronunciada */
+}
+
+.cabecalho .lead {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #f9f8f1; /* Um bege claro para o subtítulo */
+}
+
+.navbar {
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra mais evidente na navbar */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    padding: 18px 25px !important; /* Mais espaçamento nos links */
+    transition: background-color 0.4s ease; /* Transição um pouco mais lenta */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15) !important; /* Destaque um pouco mais forte no hover */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 600; 
+}
